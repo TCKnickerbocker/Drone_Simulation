@@ -1,0 +1,4 @@
+<map id="RegisteelFactory" name="RegisteelFactory">
+<area shape="rect" id="node1" title="this class is a inherits from the IEntityFactory class and is responsible for using the factory metho..." alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node2" href="$classIEntityFactory.html" title="this class is a parent class and is responsible for using the factory method to create entities." alt="" coords="15,5,127,32"/>
+</map>

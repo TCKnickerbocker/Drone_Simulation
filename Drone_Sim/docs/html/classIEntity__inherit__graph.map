@@ -1,0 +1,10 @@
+<map id="IEntity" name="IEntity">
+<area shape="rect" id="node1" title="Parent class IEntity. Abstract controller class used in the Transit Service. Uses the Model View Cont..." alt="" coords="275,5,339,32"/>
+<area shape="rect" id="node2" href="$classCar.html" title="this class inherits from the IEntity class and is responsible for representing a car in a physicalk s..." alt="" coords="5,80,49,107"/>
+<area shape="rect" id="node3" href="$classDrone.html" title="this class inhertis from the IEntity class and represents a drone in a physical system...." alt="" coords="74,80,135,107"/>
+<area shape="rect" id="node4" href="$classHelicopter.html" title="this class inhertis from the IEntity class and represents a helicopter in a physical system...." alt="" coords="160,80,249,107"/>
+<area shape="rect" id="node5" href="$classRegice.html" title=" " alt="" coords="274,80,341,107"/>
+<area shape="rect" id="node6" href="$classRegirock.html" title=" " alt="" coords="365,80,444,107"/>
+<area shape="rect" id="node7" href="$classRegisteel.html" title=" " alt="" coords="469,80,551,107"/>
+<area shape="rect" id="node8" href="$classRobot.html" title="this class inhertis from the IEntity class and represents a robot in a physical system...." alt="" coords="576,80,636,107"/>
+</map>

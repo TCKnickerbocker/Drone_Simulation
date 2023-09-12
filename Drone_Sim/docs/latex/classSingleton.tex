@@ -1,0 +1,96 @@
+\hypertarget{classSingleton}{}\doxysection{Singleton Class Reference}
+\label{classSingleton}\index{Singleton@{Singleton}}
+
+
+Uses singlton method to update drone info to a C\+SV file.  
+
+
+
+
+{\ttfamily \#include $<$Singleton.\+h$>$}
+
+
+
+Collaboration diagram for Singleton\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=205pt]{classSingleton__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSingleton_a543d81b5f1458e51fe1a56082b6afccc}\label{classSingleton_a543d81b5f1458e51fe1a56082b6afccc}} 
+\mbox{\hyperlink{classSingleton_a543d81b5f1458e51fe1a56082b6afccc}{$\sim$\+Singleton}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classSingleton}{Singleton}} destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSingleton_add02ad2394e9e3fa599e7be83e2c2d71}\label{classSingleton_add02ad2394e9e3fa599e7be83e2c2d71}} 
+void \mbox{\hyperlink{classSingleton_add02ad2394e9e3fa599e7be83e2c2d71}{write\+To\+C\+SV}} ()
+\begin{DoxyCompactList}\small\item\em Writes values to the C\+SV file delivery\+Output.\+csv. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSingleton_a0d5ff3f5fc610e62724153621da300b2}{add\+Delivery}} (\mbox{\hyperlink{classDeliveryData}{Delivery\+Data}} new\+Del)
+\begin{DoxyCompactList}\small\item\em pushes \mbox{\hyperlink{classDeliveryData}{Delivery\+Data}} object into a vector containing all delivery data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classSingleton}{Singleton}} $\ast$ \mbox{\hyperlink{classSingleton_aafaa70115ebd272ecf36ca061232108b}{Get\+Instance}} ()
+\begin{DoxyCompactList}\small\item\em Gets the single instance created by the constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSingleton_a0e21dfc9afab45b0a6a70f6665ce5819}\label{classSingleton_a0e21dfc9afab45b0a6a70f6665ce5819}} 
+\mbox{\hyperlink{classSingleton_a0e21dfc9afab45b0a6a70f6665ce5819}{Singleton}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classSingleton}{Singleton}} constructor, only called once. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSingleton_a4aa8957ca3889ea03111e232ccdb2a49}\label{classSingleton_a4aa8957ca3889ea03111e232ccdb2a49}} 
+std\+::vector$<$ \mbox{\hyperlink{classDeliveryData}{Delivery\+Data}} $>$ {\bfseries deliveries}
+\item 
+\mbox{\Hypertarget{classSingleton_a033f23673376d30806c9f725f792d95d}\label{classSingleton_a033f23673376d30806c9f725f792d95d}} 
+bool {\bfseries written\+Before} = false
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSingleton_a77bff94c212b71b1559c471cd8b2290c}\label{classSingleton_a77bff94c212b71b1559c471cd8b2290c}} 
+static \mbox{\hyperlink{classSingleton}{Singleton}} $\ast$ {\bfseries instance}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Uses singlton method to update drone info to a C\+SV file. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSingleton_a0d5ff3f5fc610e62724153621da300b2}\label{classSingleton_a0d5ff3f5fc610e62724153621da300b2}} 
+\index{Singleton@{Singleton}!addDelivery@{addDelivery}}
+\index{addDelivery@{addDelivery}!Singleton@{Singleton}}
+\doxysubsubsection{\texorpdfstring{addDelivery()}{addDelivery()}}
+{\footnotesize\ttfamily void Singleton\+::add\+Delivery (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classDeliveryData}{Delivery\+Data}}}]{new\+Del }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+pushes \mbox{\hyperlink{classDeliveryData}{Delivery\+Data}} object into a vector containing all delivery data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Del} & \mbox{\hyperlink{classDeliveryData}{Delivery\+Data}} object. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSingleton_aafaa70115ebd272ecf36ca061232108b}\label{classSingleton_aafaa70115ebd272ecf36ca061232108b}} 
+\index{Singleton@{Singleton}!GetInstance@{GetInstance}}
+\index{GetInstance@{GetInstance}!Singleton@{Singleton}}
+\doxysubsubsection{\texorpdfstring{GetInstance()}{GetInstance()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{classSingleton}{Singleton}}$\ast$ Singleton\+::\+Get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Gets the single instance created by the constructor. 
+
+\begin{DoxyReturn}{Returns}
+a Singleton$\ast$ representing an instance. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/horej024/csci3081w/\+Team-\/010-\/3-\/homework04/libs/transit/include/Singleton.\+h\end{DoxyCompactItemize}

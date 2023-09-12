@@ -1,0 +1,118 @@
+\hypertarget{classAstarStrategy}{}\doxysection{Astar\+Strategy Class Reference}
+\label{classAstarStrategy}\index{AstarStrategy@{AstarStrategy}}
+
+
+this class inherits from the \mbox{\hyperlink{classIStrategy}{I\+Strategy}} class and is responsible for generating the beeline that the drone will take.  
+
+
+
+
+{\ttfamily \#include $<$Astar\+Strategy.\+h$>$}
+
+
+
+Inheritance diagram for Astar\+Strategy\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{classAstarStrategy__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Astar\+Strategy\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{classAstarStrategy__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAstarStrategy_aed2438fdb571dbe3974ee5ee29c8a7be}{Astar\+Strategy}} (\mbox{\hyperlink{classVector3}{Vector3}} position, \mbox{\hyperlink{classVector3}{Vector3}} destination, const I\+Graph $\ast$graph)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classAstarStrategy}{Astar\+Strategy}}\textquotesingle{}s constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAstarStrategy_aaea127f0c592f085aa6acfd2135c0c73}\label{classAstarStrategy_aaea127f0c592f085aa6acfd2135c0c73}} 
+\mbox{\hyperlink{classAstarStrategy_aaea127f0c592f085aa6acfd2135c0c73}{$\sim$\+Astar\+Strategy}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classAstarStrategy}{Astar\+Strategy}}\textquotesingle{}s destructor. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classAstarStrategy_ac14d3e70f72207555a63c1329ab0fbd7}{Move}} (\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$entity, double dt)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classAstarStrategy}{Astar\+Strategy}}\textquotesingle{}s movement function. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classAstarStrategy_a65ae8d490fe820fa152a379da6845103}{Is\+Completed}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the \mbox{\hyperlink{classAstarStrategy}{Astar\+Strategy}}\textquotesingle{}s movement is completed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+this class inherits from the \mbox{\hyperlink{classIStrategy}{I\+Strategy}} class and is responsible for generating the beeline that the drone will take. 
+
+include 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classAstarStrategy_aed2438fdb571dbe3974ee5ee29c8a7be}\label{classAstarStrategy_aed2438fdb571dbe3974ee5ee29c8a7be}} 
+\index{AstarStrategy@{AstarStrategy}!AstarStrategy@{AstarStrategy}}
+\index{AstarStrategy@{AstarStrategy}!AstarStrategy@{AstarStrategy}}
+\doxysubsubsection{\texorpdfstring{AstarStrategy()}{AstarStrategy()}}
+{\footnotesize\ttfamily Astar\+Strategy\+::\+Astar\+Strategy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{position,  }\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{destination,  }\item[{const I\+Graph $\ast$}]{graph }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{classAstarStrategy}{Astar\+Strategy}}\textquotesingle{}s constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & A vector3 of the current position of the \mbox{\hyperlink{classIEntity}{I\+Entity}}. \\
+\hline
+{\em destination} & A vector3 of the destination for the \mbox{\hyperlink{classIEntity}{I\+Entity}}. \\
+\hline
+{\em graph} & Pointer to the I\+Graph map being used. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classAstarStrategy_a65ae8d490fe820fa152a379da6845103}\label{classAstarStrategy_a65ae8d490fe820fa152a379da6845103}} 
+\index{AstarStrategy@{AstarStrategy}!IsCompleted@{IsCompleted}}
+\index{IsCompleted@{IsCompleted}!AstarStrategy@{AstarStrategy}}
+\doxysubsubsection{\texorpdfstring{IsCompleted()}{IsCompleted()}}
+{\footnotesize\ttfamily bool Astar\+Strategy\+::\+Is\+Completed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Checks if the \mbox{\hyperlink{classAstarStrategy}{Astar\+Strategy}}\textquotesingle{}s movement is completed. 
+
+\begin{DoxyReturn}{Returns}
+Boolean, true\+: completed, false\+: uncompleted. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIStrategy_a13c6048efd232b696db5f35000d5b106}{I\+Strategy}}.
+
+\mbox{\Hypertarget{classAstarStrategy_ac14d3e70f72207555a63c1329ab0fbd7}\label{classAstarStrategy_ac14d3e70f72207555a63c1329ab0fbd7}} 
+\index{AstarStrategy@{AstarStrategy}!Move@{Move}}
+\index{Move@{Move}!AstarStrategy@{AstarStrategy}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily float Astar\+Strategy\+::\+Move (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$}]{entity,  }\item[{double}]{dt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\mbox{\hyperlink{classAstarStrategy}{Astar\+Strategy}}\textquotesingle{}s movement function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & Pointer to the \mbox{\hyperlink{classIEntity}{I\+Entity}} object that we are moving. \\
+\hline
+{\em dt} & Time represented as a double. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Float representing the distance traveled. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIStrategy_a51f7246b2bc1a695ae9a9542cb79a717}{I\+Strategy}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/horej024/csci3081w/\+Team-\/010-\/3-\/homework04/libs/transit/include/Astar\+Strategy.\+h\end{DoxyCompactItemize}

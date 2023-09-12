@@ -1,0 +1,89 @@
+\hypertarget{classIEntityFactory}{}\doxysection{I\+Entity\+Factory Class Reference}
+\label{classIEntityFactory}\index{IEntityFactory@{IEntityFactory}}
+
+
+this class is a parent class and is responsible for using the factory method to create entities.  
+
+
+
+
+{\ttfamily \#include $<$I\+Entity\+Factory.\+h$>$}
+
+
+
+Inheritance diagram for I\+Entity\+Factory\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{classIEntityFactory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for I\+Entity\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=165pt]{classIEntityFactory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIEntityFactory_a57921a96c43266c435a4d11abd56355c}\label{classIEntityFactory_a57921a96c43266c435a4d11abd56355c}} 
+virtual \mbox{\hyperlink{classIEntityFactory_a57921a96c43266c435a4d11abd56355c}{$\sim$\+I\+Entity\+Factory}} ()
+\begin{DoxyCompactList}\small\item\em Destroy \mbox{\hyperlink{classIEntityFactory}{I\+Entity\+Factory}}. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ \mbox{\hyperlink{classIEntityFactory_a9bd53cf7ca21ab252968062ea5d88180}{Create\+Entity}} (Json\+Object \&entity)=0
+\begin{DoxyCompactList}\small\item\em Create new \mbox{\hyperlink{classIEntity}{I\+Entity}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIEntityFactory_a1084720a2c1ba62f19e448e9210f5881}\label{classIEntityFactory_a1084720a2c1ba62f19e448e9210f5881}} 
+bool {\bfseries lowered\+Speed}
+\item 
+\mbox{\Hypertarget{classIEntityFactory_a86ee844c7988a504cc7248a7c5fd7aa4}\label{classIEntityFactory_a86ee844c7988a504cc7248a7c5fd7aa4}} 
+bool {\bfseries regice\+In}
+\item 
+\mbox{\Hypertarget{classIEntityFactory_a02baf888c67de7c74113d188a0e9ef74}\label{classIEntityFactory_a02baf888c67de7c74113d188a0e9ef74}} 
+\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ {\bfseries regice}
+\item 
+\mbox{\Hypertarget{classIEntityFactory_a5cea8d5dfc27ff9d898ebf27e15f9583}\label{classIEntityFactory_a5cea8d5dfc27ff9d898ebf27e15f9583}} 
+\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ {\bfseries regirock}
+\item 
+\mbox{\Hypertarget{classIEntityFactory_a49798826f89a4bf404d7dbef1441a6bd}\label{classIEntityFactory_a49798826f89a4bf404d7dbef1441a6bd}} 
+\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ {\bfseries registeel}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this class is a parent class and is responsible for using the factory method to create entities. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classIEntityFactory_a9bd53cf7ca21ab252968062ea5d88180}\label{classIEntityFactory_a9bd53cf7ca21ab252968062ea5d88180}} 
+\index{IEntityFactory@{IEntityFactory}!CreateEntity@{CreateEntity}}
+\index{CreateEntity@{CreateEntity}!IEntityFactory@{IEntityFactory}}
+\doxysubsubsection{\texorpdfstring{CreateEntity()}{CreateEntity()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classIEntity}{I\+Entity}}$\ast$ I\+Entity\+Factory\+::\+Create\+Entity (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{entity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Create new \mbox{\hyperlink{classIEntity}{I\+Entity}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & Json\+Object containing information on the entity to be created. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pointer to new entity 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classCarFactory_abe2333e2bcd50d0f8bb4de83970dea23}{Car\+Factory}}, \mbox{\hyperlink{classHelicopterFactory_a7c1ad930ca54442324f9ed2857762d4d}{Helicopter\+Factory}}, \mbox{\hyperlink{classDroneFactory_a00ec2b8479329bcb3ebcd1977cd57303}{Drone\+Factory}}, \mbox{\hyperlink{classRegiceFactory_a724c40f7a4a1023f1fc08211e40ffd17}{Regice\+Factory}}, \mbox{\hyperlink{classRegirockFactory_a345c29c9cf38c05d2e68eb2ed370dbec}{Regirock\+Factory}}, \mbox{\hyperlink{classRegisteelFactory_a32f4970c3f9b0e261c3656c4f2cc5d6f}{Registeel\+Factory}}, \mbox{\hyperlink{classRobotFactory_ab218984cbeded3f7920c2baac944295f}{Robot\+Factory}}, and \mbox{\hyperlink{classCompositeFactory_abbe05c30c3b601e72344e3e2e6deff1c}{Composite\+Factory}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/horej024/csci3081w/\+Team-\/010-\/3-\/homework04/libs/transit/include/I\+Entity\+Factory.\+h\end{DoxyCompactItemize}

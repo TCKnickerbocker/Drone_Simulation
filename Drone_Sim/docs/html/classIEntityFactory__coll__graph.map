@@ -1,0 +1,4 @@
+<map id="IEntityFactory" name="IEntityFactory">
+<area shape="rect" id="node1" title="this class is a parent class and is responsible for using the factory method to create entities." alt="" coords="5,124,117,151"/>
+<area shape="rect" id="node2" href="$classIEntity.html" title="Parent class IEntity. Abstract controller class used in the Transit Service. Uses the Model View Cont..." alt="" coords="29,5,93,32"/>
+</map>

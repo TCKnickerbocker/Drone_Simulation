@@ -1,0 +1,6 @@
+DroneID,DeliveryDistance,MoneyEarned,DeliveryTime,StrategyName,IsComplete
+13,717.462,$77.4073,62.4073s,astar,true
+13,563.378,$93.5728,78.5728s,dfs,true
+13,903.589,$98.3081,83.3081s,dijkstra,true
+11,542.389,$62.19,47.19s,dijkstra,true
+13,951.567,$96.3353,81.3353s,dijkstra,true

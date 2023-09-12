@@ -1,0 +1,353 @@
+\hypertarget{classRegisteel}{}\doxysection{Registeel Class Reference}
+\label{classRegisteel}\index{Registeel@{Registeel}}
+
+
+Inheritance diagram for Registeel\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=142pt]{classRegisteel__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Registeel\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=142pt]{classRegisteel__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRegisteel_a00c5633717f851af0266dcfc44a8da1e}{Registeel}} (const Json\+Object \&obj)
+\begin{DoxyCompactList}\small\item\em Represents registeel in physical system. Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classRegisteel_aba89e1b521cfe39c0b1099e77a618358}{$\sim$\+Registeel}} ()
+\begin{DoxyCompactList}\small\item\em Destroys registeel. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classRegisteel_ad1e9ba4facf5f90d3cf652f77c28867e}{Get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em Retireve speed value of registeel. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classRegisteel_acaee8c19b65f83b33f514611d4a6fd38}{Get\+Position}} () const
+\begin{DoxyCompactList}\small\item\em Gets the registeel position. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classRegisteel_a94e911c8ffdb8ca3036e5fbf17804a88}{Get\+Direction}} () const
+\begin{DoxyCompactList}\small\item\em Current direction value of registeel. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classRegisteel_a58095ae019e2d0cbce1020a703bd0548}{Get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em Current destination value of registeel. \end{DoxyCompactList}\item 
+Json\+Object \mbox{\hyperlink{classRegisteel_a30ddfc4fc99e475ff04861d7f1b63019}{Get\+Details}} () const
+\begin{DoxyCompactList}\small\item\em Get J\+S\+ON details. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classRegisteel_a0ca005b07ef34f372c823c8af220ac38}{Get\+Availability}} () const
+\begin{DoxyCompactList}\small\item\em Gets registeel availability status. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRegisteel_a8ab67e7842d23fb220676903306c0279}{Get\+Nearest\+Entity}} (std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em Retrieve nearest entity to registeel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRegisteel_aa74f8a1f66ebb4dd09b268a5599715d0}{Update}} (double dt, std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em Updates the registeel\textquotesingle{}s position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRegisteel_aa68677c1c0e084579bcbb1de4066d7ef}{Set\+Position}} (\mbox{\hyperlink{classVector3}{Vector3}} pos\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the registeel\textquotesingle{}s position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRegisteel_a18b0b705e63c39e577cddf68fe2a771b}{Set\+Direction}} (\mbox{\hyperlink{classVector3}{Vector3}} dir\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the registeel\textquotesingle{}s direction. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRegisteel_a61eee6036690fa484dc582fece1f2b86}{Set\+Destination}} (\mbox{\hyperlink{classVector3}{Vector3}} des\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the registeel\textquotesingle{}s destination. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRegisteel_af5c8b182af444ea805bcbf5813f2ce76}{Rotate}} (double angle)
+\begin{DoxyCompactList}\small\item\em Rotates a registeel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRegisteel_aee982895127dacb78089a4e59cb85c33}{Jump}} (double height)
+\begin{DoxyCompactList}\small\item\em Causes registeel to jump in place. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRegisteel_afea463837cf70ea6c3e14e6c1226ace6}\label{classRegisteel_afea463837cf70ea6c3e14e6c1226ace6}} 
+{\bfseries Registeel} (const \mbox{\hyperlink{classRegisteel}{Registeel}} \&registeel)=delete
+\item 
+\mbox{\Hypertarget{classRegisteel_ae67b30f79233f1059a4057ea1d5092a3}\label{classRegisteel_ae67b30f79233f1059a4057ea1d5092a3}} 
+\mbox{\hyperlink{classRegisteel}{Registeel}} \& {\bfseries operator=} (const \mbox{\hyperlink{classRegisteel}{Registeel}} \&registeel)=delete
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRegisteel_a00c5633717f851af0266dcfc44a8da1e}\label{classRegisteel_a00c5633717f851af0266dcfc44a8da1e}} 
+\index{Registeel@{Registeel}!Registeel@{Registeel}}
+\index{Registeel@{Registeel}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{Registeel()}{Registeel()}}
+{\footnotesize\ttfamily Registeel\+::\+Registeel (\begin{DoxyParamCaption}\item[{const Json\+Object \&}]{obj }\end{DoxyParamCaption})}
+
+
+
+Represents registeel in physical system. Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & J\+S\+ON object w/ registeel info \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Instance of registeel. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRegisteel_aba89e1b521cfe39c0b1099e77a618358}\label{classRegisteel_aba89e1b521cfe39c0b1099e77a618358}} 
+\index{Registeel@{Registeel}!````~Registeel@{$\sim$Registeel}}
+\index{````~Registeel@{$\sim$Registeel}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{$\sim$Registeel()}{~Registeel()}}
+{\footnotesize\ttfamily Registeel\+::$\sim$\+Registeel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroys registeel. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRegisteel_a0ca005b07ef34f372c823c8af220ac38}\label{classRegisteel_a0ca005b07ef34f372c823c8af220ac38}} 
+\index{Registeel@{Registeel}!GetAvailability@{GetAvailability}}
+\index{GetAvailability@{GetAvailability}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{GetAvailability()}{GetAvailability()}}
+{\footnotesize\ttfamily bool Registeel\+::\+Get\+Availability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets registeel availability status. 
+
+\begin{DoxyReturn}{Returns}
+boolean of if registeel is available 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a90348881691a37d5c3d63265ed3463b1}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRegisteel_a58095ae019e2d0cbce1020a703bd0548}\label{classRegisteel_a58095ae019e2d0cbce1020a703bd0548}} 
+\index{Registeel@{Registeel}!GetDestination@{GetDestination}}
+\index{GetDestination@{GetDestination}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{GetDestination()}{GetDestination()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Registeel\+::\+Get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Current destination value of registeel. 
+
+\begin{DoxyReturn}{Returns}
+Destination vector3 of registeel class instance 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a0dcaf865938ab1fb49c8389b5e580d90}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRegisteel_a30ddfc4fc99e475ff04861d7f1b63019}\label{classRegisteel_a30ddfc4fc99e475ff04861d7f1b63019}} 
+\index{Registeel@{Registeel}!GetDetails@{GetDetails}}
+\index{GetDetails@{GetDetails}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{GetDetails()}{GetDetails()}}
+{\footnotesize\ttfamily Json\+Object Registeel\+::\+Get\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get J\+S\+ON details. 
+
+\begin{DoxyReturn}{Returns}
+details J\+S\+ON object 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a97c799400ce05e2ff2566adc4d7b9634}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRegisteel_a94e911c8ffdb8ca3036e5fbf17804a88}\label{classRegisteel_a94e911c8ffdb8ca3036e5fbf17804a88}} 
+\index{Registeel@{Registeel}!GetDirection@{GetDirection}}
+\index{GetDirection@{GetDirection}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{GetDirection()}{GetDirection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Registeel\+::\+Get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Current direction value of registeel. 
+
+\begin{DoxyReturn}{Returns}
+Direction vector3 of registeel class instance 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_aa99a8fef8b22195a5113c38ef51f086d}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRegisteel_a8ab67e7842d23fb220676903306c0279}\label{classRegisteel_a8ab67e7842d23fb220676903306c0279}} 
+\index{Registeel@{Registeel}!GetNearestEntity@{GetNearestEntity}}
+\index{GetNearestEntity@{GetNearestEntity}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{GetNearestEntity()}{GetNearestEntity()}}
+{\footnotesize\ttfamily void Registeel\+::\+Get\+Nearest\+Entity (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})}
+
+
+
+Retrieve nearest entity to registeel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scheduler} & Vector of entity pointers, named schedular \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Entity with the least distance to registeel instance 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRegisteel_acaee8c19b65f83b33f514611d4a6fd38}\label{classRegisteel_acaee8c19b65f83b33f514611d4a6fd38}} 
+\index{Registeel@{Registeel}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Registeel\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the registeel position. 
+
+\begin{DoxyReturn}{Returns}
+Position vector3 of registeel class instance 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a9bc32587aab91761fc0e718612498199}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRegisteel_ad1e9ba4facf5f90d3cf652f77c28867e}\label{classRegisteel_ad1e9ba4facf5f90d3cf652f77c28867e}} 
+\index{Registeel@{Registeel}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily float Registeel\+::\+Get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Retireve speed value of registeel. 
+
+\begin{DoxyReturn}{Returns}
+speed of registeel class instance 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a6520d2b1dc71d092bab38ef9f5cc9ff4}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRegisteel_aee982895127dacb78089a4e59cb85c33}\label{classRegisteel_aee982895127dacb78089a4e59cb85c33}} 
+\index{Registeel@{Registeel}!Jump@{Jump}}
+\index{Jump@{Jump}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{Jump()}{Jump()}}
+{\footnotesize\ttfamily void Registeel\+::\+Jump (\begin{DoxyParamCaption}\item[{double}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Causes registeel to jump in place. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em height} & double representing power of jump \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void, but registeel may have a new y-\/coordinate after jump executed 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a4e8eb64a324e1196be039c5e2a293b7a}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRegisteel_af5c8b182af444ea805bcbf5813f2ce76}\label{classRegisteel_af5c8b182af444ea805bcbf5813f2ce76}} 
+\index{Registeel@{Registeel}!Rotate@{Rotate}}
+\index{Rotate@{Rotate}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{Rotate()}{Rotate()}}
+{\footnotesize\ttfamily void Registeel\+::\+Rotate (\begin{DoxyParamCaption}\item[{double}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Rotates a registeel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & double representing angle change \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void, but registeel will have new orientation (direction) 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a4c109baa4179c28422623a7d3b2e9f82}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRegisteel_a61eee6036690fa484dc582fece1f2b86}\label{classRegisteel_a61eee6036690fa484dc582fece1f2b86}} 
+\index{Registeel@{Registeel}!SetDestination@{SetDestination}}
+\index{SetDestination@{SetDestination}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{SetDestination()}{SetDestination()}}
+{\footnotesize\ttfamily void Registeel\+::\+Set\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{des\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the registeel\textquotesingle{}s destination. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em des\+\_\+} & Vector of new registeel destination \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void, but registeel will have new destination 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_aa473000823f673e9d7b89aed3cd3fc5c}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRegisteel_a18b0b705e63c39e577cddf68fe2a771b}\label{classRegisteel_a18b0b705e63c39e577cddf68fe2a771b}} 
+\index{Registeel@{Registeel}!SetDirection@{SetDirection}}
+\index{SetDirection@{SetDirection}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{SetDirection()}{SetDirection()}}
+{\footnotesize\ttfamily void Registeel\+::\+Set\+Direction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{dir\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the registeel\textquotesingle{}s direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir\+\_\+} & Vector of new registeel direction \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void, but registeel will have new direction 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a64bfaa448a929ca71693ff3e2edb9d97}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRegisteel_aa68677c1c0e084579bcbb1de4066d7ef}\label{classRegisteel_aa68677c1c0e084579bcbb1de4066d7ef}} 
+\index{Registeel@{Registeel}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void Registeel\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{pos\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Sets the registeel\textquotesingle{}s position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+\_\+} & Vector of new registeel cords \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void, but registeel will have new coordinates 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_af0475048b09dc13ed6cf8e7c7be2ae6b}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRegisteel_aa74f8a1f66ebb4dd09b268a5599715d0}\label{classRegisteel_aa74f8a1f66ebb4dd09b268a5599715d0}} 
+\index{Registeel@{Registeel}!Update@{Update}}
+\index{Update@{Update}!Registeel@{Registeel}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Registeel\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{dt,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Updates the registeel\textquotesingle{}s position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dt} & Time passed since last move \\
+\hline
+{\em scheduler} & Vector of entity destinations along route \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void, but registeel will now have new position along route 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a9a8e8588fd85c7b0d813d60686d4dc2c}{I\+Entity}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/horej024/csci3081w/\+Team-\/010-\/3-\/homework04/libs/transit/include/Registeel.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,250 @@
+\hypertarget{classDeliveryData}{}\doxysection{Delivery\+Data Class Reference}
+\label{classDeliveryData}\index{DeliveryData@{DeliveryData}}
+
+
+stores the data for a single drone delivery. Data will be stored in an instance of the class. Each drone can do several deliveries, so a drone will have a vector of potentially several deliveries, where each delivery contains drone\+ID, delivery\+Distance, etc..  
+
+
+
+
+{\ttfamily \#include $<$Delivery\+Data.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDeliveryData_a1dfe7454d3bdf83246101219eecda1b9}{Delivery\+Data}} (int ID)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classDeliveryData}{Delivery\+Data}} Constructor. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classDeliveryData_a5846182e70e781d3db90bde51ace4cca}{get\+Drone\+ID}} ()
+\begin{DoxyCompactList}\small\item\em Returns the ID of a drone. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classDeliveryData_aec8aa2b1a04dead6488b6a5cd097f594}{get\+Delivery\+Distance}} ()
+\begin{DoxyCompactList}\small\item\em Returns the delivery distance for a drone. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classDeliveryData_abca80e84b16bc80bed032eb1e0085b12}{get\+Money\+Earned}} ()
+\begin{DoxyCompactList}\small\item\em Returns the amount of money earned for a delivery. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classDeliveryData_ae0843f406e3cc5fdc35120202c2d1192}{get\+Strategy\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Returns strategy being used by drone. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classDeliveryData_a5356f9671c8cdde08aa94e47002ec27b}{get\+Is\+Complete}} ()
+\begin{DoxyCompactList}\small\item\em Returns status of Is\+Complete. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classDeliveryData_a243c02b91a9387952ca7c256c75e9f44}{get\+Delivery\+Time}} ()
+\begin{DoxyCompactList}\small\item\em Returns time of delivery. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDeliveryData_a5e433d10344ceeb96e1ec65b3be5848b}{set\+Drone\+ID}} (int id)
+\begin{DoxyCompactList}\small\item\em Set the id for a drone. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDeliveryData_a91f4aceb210c947db8bf3fc79fa1b022}{set\+Strategy\+Name}} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em Set the strategy to the name given. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDeliveryData_a31eaa00c76aaa2623cf65d5fb2636ec3}{set\+Is\+Complete}} (bool completion)
+\begin{DoxyCompactList}\small\item\em Set the Is\+Complete status. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDeliveryData_ae2356c923ba52f726a1e6f0084023426}{update\+Delivery\+Distance}} (float distance\+Traveled)
+\begin{DoxyCompactList}\small\item\em Set the delivery distance for a drone.. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDeliveryData_a717d8b049cdd0d446191c7c09d824b6b}{update\+Money}} ()
+\begin{DoxyCompactList}\small\item\em updates the money a drone has earned. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDeliveryData_ad3b83c0043e3fde0eb024c1321496d13}{update\+Delivery\+Time}} (double time)
+\begin{DoxyCompactList}\small\item\em updates the delivery time for a drone. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+stores the data for a single drone delivery. Data will be stored in an instance of the class. Each drone can do several deliveries, so a drone will have a vector of potentially several deliveries, where each delivery contains drone\+ID, delivery\+Distance, etc.. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDeliveryData_a1dfe7454d3bdf83246101219eecda1b9}\label{classDeliveryData_a1dfe7454d3bdf83246101219eecda1b9}} 
+\index{DeliveryData@{DeliveryData}!DeliveryData@{DeliveryData}}
+\index{DeliveryData@{DeliveryData}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{DeliveryData()}{DeliveryData()}}
+{\footnotesize\ttfamily Delivery\+Data\+::\+Delivery\+Data (\begin{DoxyParamCaption}\item[{int}]{ID }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{classDeliveryData}{Delivery\+Data}} Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ID} & ID to represent a name for the delivery data. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDeliveryData_aec8aa2b1a04dead6488b6a5cd097f594}\label{classDeliveryData_aec8aa2b1a04dead6488b6a5cd097f594}} 
+\index{DeliveryData@{DeliveryData}!getDeliveryDistance@{getDeliveryDistance}}
+\index{getDeliveryDistance@{getDeliveryDistance}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{getDeliveryDistance()}{getDeliveryDistance()}}
+{\footnotesize\ttfamily float Delivery\+Data\+::get\+Delivery\+Distance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the delivery distance for a drone. 
+
+\begin{DoxyReturn}{Returns}
+Float representing the distance. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDeliveryData_a243c02b91a9387952ca7c256c75e9f44}\label{classDeliveryData_a243c02b91a9387952ca7c256c75e9f44}} 
+\index{DeliveryData@{DeliveryData}!getDeliveryTime@{getDeliveryTime}}
+\index{getDeliveryTime@{getDeliveryTime}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{getDeliveryTime()}{getDeliveryTime()}}
+{\footnotesize\ttfamily double Delivery\+Data\+::get\+Delivery\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns time of delivery. 
+
+\begin{DoxyReturn}{Returns}
+double representing the time a delivery takes. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDeliveryData_a5846182e70e781d3db90bde51ace4cca}\label{classDeliveryData_a5846182e70e781d3db90bde51ace4cca}} 
+\index{DeliveryData@{DeliveryData}!getDroneID@{getDroneID}}
+\index{getDroneID@{getDroneID}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{getDroneID()}{getDroneID()}}
+{\footnotesize\ttfamily int Delivery\+Data\+::get\+Drone\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the ID of a drone. 
+
+\begin{DoxyReturn}{Returns}
+The intiger ID for a drone. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDeliveryData_a5356f9671c8cdde08aa94e47002ec27b}\label{classDeliveryData_a5356f9671c8cdde08aa94e47002ec27b}} 
+\index{DeliveryData@{DeliveryData}!getIsComplete@{getIsComplete}}
+\index{getIsComplete@{getIsComplete}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{getIsComplete()}{getIsComplete()}}
+{\footnotesize\ttfamily bool Delivery\+Data\+::get\+Is\+Complete (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns status of Is\+Complete. 
+
+\begin{DoxyReturn}{Returns}
+Boolean representing status of Is\+Complete. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDeliveryData_abca80e84b16bc80bed032eb1e0085b12}\label{classDeliveryData_abca80e84b16bc80bed032eb1e0085b12}} 
+\index{DeliveryData@{DeliveryData}!getMoneyEarned@{getMoneyEarned}}
+\index{getMoneyEarned@{getMoneyEarned}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{getMoneyEarned()}{getMoneyEarned()}}
+{\footnotesize\ttfamily float Delivery\+Data\+::get\+Money\+Earned (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the amount of money earned for a delivery. 
+
+\begin{DoxyReturn}{Returns}
+Float reprenting money earned. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDeliveryData_ae0843f406e3cc5fdc35120202c2d1192}\label{classDeliveryData_ae0843f406e3cc5fdc35120202c2d1192}} 
+\index{DeliveryData@{DeliveryData}!getStrategyName@{getStrategyName}}
+\index{getStrategyName@{getStrategyName}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{getStrategyName()}{getStrategyName()}}
+{\footnotesize\ttfamily std\+::string Delivery\+Data\+::get\+Strategy\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns strategy being used by drone. 
+
+\begin{DoxyReturn}{Returns}
+String representing strategy name. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDeliveryData_a5e433d10344ceeb96e1ec65b3be5848b}\label{classDeliveryData_a5e433d10344ceeb96e1ec65b3be5848b}} 
+\index{DeliveryData@{DeliveryData}!setDroneID@{setDroneID}}
+\index{setDroneID@{setDroneID}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{setDroneID()}{setDroneID()}}
+{\footnotesize\ttfamily void Delivery\+Data\+::set\+Drone\+ID (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the id for a drone. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & the new id we are setting a drone to. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDeliveryData_a31eaa00c76aaa2623cf65d5fb2636ec3}\label{classDeliveryData_a31eaa00c76aaa2623cf65d5fb2636ec3}} 
+\index{DeliveryData@{DeliveryData}!setIsComplete@{setIsComplete}}
+\index{setIsComplete@{setIsComplete}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{setIsComplete()}{setIsComplete()}}
+{\footnotesize\ttfamily void Delivery\+Data\+::set\+Is\+Complete (\begin{DoxyParamCaption}\item[{bool}]{completion }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the Is\+Complete status. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em completion} & boolean representing the state of a drones delivery. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDeliveryData_a91f4aceb210c947db8bf3fc79fa1b022}\label{classDeliveryData_a91f4aceb210c947db8bf3fc79fa1b022}} 
+\index{DeliveryData@{DeliveryData}!setStrategyName@{setStrategyName}}
+\index{setStrategyName@{setStrategyName}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{setStrategyName()}{setStrategyName()}}
+{\footnotesize\ttfamily void Delivery\+Data\+::set\+Strategy\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the strategy to the name given. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the new strategy we are setting a drone to use. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDeliveryData_ae2356c923ba52f726a1e6f0084023426}\label{classDeliveryData_ae2356c923ba52f726a1e6f0084023426}} 
+\index{DeliveryData@{DeliveryData}!updateDeliveryDistance@{updateDeliveryDistance}}
+\index{updateDeliveryDistance@{updateDeliveryDistance}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{updateDeliveryDistance()}{updateDeliveryDistance()}}
+{\footnotesize\ttfamily void Delivery\+Data\+::update\+Delivery\+Distance (\begin{DoxyParamCaption}\item[{float}]{distance\+Traveled }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set the delivery distance for a drone.. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em distance\+Traveled} & the distance we traveled. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDeliveryData_ad3b83c0043e3fde0eb024c1321496d13}\label{classDeliveryData_ad3b83c0043e3fde0eb024c1321496d13}} 
+\index{DeliveryData@{DeliveryData}!updateDeliveryTime@{updateDeliveryTime}}
+\index{updateDeliveryTime@{updateDeliveryTime}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{updateDeliveryTime()}{updateDeliveryTime()}}
+{\footnotesize\ttfamily void Delivery\+Data\+::update\+Delivery\+Time (\begin{DoxyParamCaption}\item[{double}]{time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+updates the delivery time for a drone. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & representing the time taken. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDeliveryData_a717d8b049cdd0d446191c7c09d824b6b}\label{classDeliveryData_a717d8b049cdd0d446191c7c09d824b6b}} 
+\index{DeliveryData@{DeliveryData}!updateMoney@{updateMoney}}
+\index{updateMoney@{updateMoney}!DeliveryData@{DeliveryData}}
+\doxysubsubsection{\texorpdfstring{updateMoney()}{updateMoney()}}
+{\footnotesize\ttfamily void Delivery\+Data\+::update\+Money (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+updates the money a drone has earned. 
+
+\begin{DoxyReturn}{Returns}
+void. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/horej024/csci3081w/\+Team-\/010-\/3-\/homework04/libs/transit/include/Delivery\+Data.\+h\end{DoxyCompactItemize}

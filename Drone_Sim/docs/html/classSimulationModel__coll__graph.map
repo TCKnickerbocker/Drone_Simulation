@@ -1,0 +1,8 @@
+<map id="SimulationModel" name="SimulationModel">
+<area shape="rect" id="node1" title="Simulation Model handling the transit simulation. The model can communicate with the controller." alt="" coords="215,307,347,333"/>
+<area shape="rect" id="node2" href="$classSingleton.html" title="Uses singlton method to update drone info to a CSV file." alt="" coords="5,209,88,235"/>
+<area shape="rect" id="node3" href="$classCompositeFactory.html" title="this class inhertis from the IEntityFactory class and is responsible for creating various factories...." alt="" coords="354,209,494,235"/>
+<area shape="rect" id="node4" href="$classIEntityFactory.html" title="this class is a parent class and is responsible for using the factory method to create entities." alt="" coords="180,124,292,151"/>
+<area shape="rect" id="node5" href="$classIEntity.html" title="Parent class IEntity. Abstract controller class used in the Transit Service. Uses the Model View Cont..." alt="" coords="204,5,268,32"/>
+<area shape="rect" id="node6" href="$classIController.html" title="Abstract controller class used in the Transit Service. Uses the Model View Controller Pattern." alt="" coords="519,209,609,235"/>
+</map>
