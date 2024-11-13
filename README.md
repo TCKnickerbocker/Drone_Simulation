@@ -1,6 +1,6 @@
 # DroneSim
 
-CS Capstone Project
+**CS Capstone Project** <br>
 
 
 Simulates drone delivieries accross UMN campus. Visualization and route planning. Advanced design patterns.
