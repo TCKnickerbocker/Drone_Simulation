@@ -1,3 +1,3 @@
 # DroneSim
 
-CSCI3081 Project
+CS Capstone Project
